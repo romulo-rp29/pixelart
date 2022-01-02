@@ -16,15 +16,16 @@ body{
 
 #pixel-board{
     display: grid;
-  grid-gap: 18px;
-  grid-template-columns: repeat(5, 25px);
-  grid-template-rows: repeat(5, 25px);
-  grid-auto-flow: column;
+    grid-gap: 18px;
+    grid-template-columns: repeat(5, 25px);
+    grid-template-rows: repeat(5, 25px);
+    grid-auto-flow: column;
 }
 
 .pixel{
     width: 40px;
     height: 40px;
+    background-color: white;
     border:1px solid black;
     margin: 0 5px;
 }
